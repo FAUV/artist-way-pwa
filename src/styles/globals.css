@@ -1,0 +1,4 @@
+@import './design-tokens.css';
+html, body, #__next{height:100%}
+main{min-height:100%; background:#f9fafb}
+body{ padding-top: env(safe-area-inset-top); padding-bottom: env(safe-area-inset-bottom); }

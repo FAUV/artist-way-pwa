@@ -1,0 +1,11 @@
+:root{ --space-2:.5rem; --space-4:1rem; --space-6:1.5rem; --radius-2xl:1.25rem; --shadow-md:0 2px 8px rgba(0,0,0,.08); --shadow-lg:0 10px 24px rgba(0,0,0,.12); --font-sans: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto; }
+*{box-sizing:border-box} body{font-family:var(--font-sans); margin:0}
+.table{width:100%; border-collapse:collapse}
+.table th,.table td{border:1px solid #e5e7eb; padding:.5rem; text-align:left}
+.container{max-width:960px; margin:0 auto; padding:1rem}
+.card{background:#fff; border-radius:var(--radius-2xl); box-shadow:var(--shadow-md); padding:1rem; margin-bottom:1rem}
+.btn{padding:.5rem 1rem; border-radius:.75rem; border:1px solid #d1d5db; background:#111827; color:#fff;}
+.btn.secondary{background:#fff;color:#111827}
+.input{padding:.5rem; border:1px solid #d1d5db; border-radius:.5rem; width:100%}
+.install-banner{position:fixed; left:1rem; right:1rem; bottom:1rem; background:#111827; color:#fff; padding:.75rem 1rem; border-radius:1rem; box-shadow:var(--shadow-lg); z-index:9999}
+.install-banner button{margin-left:.5rem}

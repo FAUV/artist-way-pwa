@@ -1,0 +1,12 @@
+{
+  "name": "El Camino del Artista",
+  "short_name": "Artista",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#111827",
+  "icons": [
+    { "src": "/icon.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
